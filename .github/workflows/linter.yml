@@ -25,5 +25,7 @@ jobs:
         pip install pylint
     - name: Lint code
       run: |
-        pylint api
+        pylint main.py
+        pylint database.py
+        
         
